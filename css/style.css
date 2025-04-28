@@ -1,5 +1,5 @@
-
 /*** Spinner Start ***/
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -12,6 +12,8 @@
     visibility: visible;
     opacity: 1;
 }
+
+
 /*** Spinner End ***/
 
 .back-to-top {
@@ -24,6 +26,7 @@
 
 
 /*** Button Start ***/
+
 .btn {
     font-weight: 600;
     transition: .5s;
@@ -86,7 +89,6 @@
     background: var(--bs-primary);
 }
 
-
 .pt-6 {
     padding-top: 60px;
 }
@@ -103,13 +105,11 @@
     padding-bottom: 60px;
 }
 
-
 .sub-title {
     font-family: "Edu TAS Beginner", cursive;
     font-weight: 700;
     font-size: 22px;
 }
-
 
 .container-fluid {
     position: relative;
@@ -133,7 +133,6 @@
     .container-fluid {
         border: none;
     }
-
     .container-fluid .header-content,
     .container-fluid .about-header,
     .container-fluid .education-header,
@@ -146,7 +145,6 @@
     .container-fluid .contact-header {
         padding: 25px;
     }
-
     .container-fluid .header-img,
     .container-fluid .about-content,
     .container-fluid .education-content,
@@ -164,6 +162,7 @@
 
 
 /*** Navbar Start ***/
+
 .nav-section {
     position: relative;
 }
@@ -193,11 +192,10 @@
     width: 100%;
     display: flex;
     align-items: center;
-    
 }
 
 .navbar-nav .nav-link span {
-    width: 40px; 
+    width: 40px;
     height: 40px;
     margin-right: 8px;
     border-right: 1px solid rgba(0, 0, 0, .08);
@@ -225,10 +223,13 @@
     margin-right: calc(100% + 40px);
     color: var(--bs-primary);
 }
+
+
 /*** Navbar End ***/
 
 
 /*** About Start ***/
+
 .about-content .about-img {
     position: relative;
     overflow: hidden;
@@ -248,10 +249,13 @@
 .about-content .about-img:hover .sosial-icon {
     top: 0;
 }
+
+
 /*** About End ***/
 
 
 /*** Education Start ***/
+
 .education-content .education-item {
     position: relative;
     overflow: hidden;
@@ -290,10 +294,13 @@
     border-color: var(--bs-light) var(--bs-light) var(--bs-light) transparent;
     z-index: -1;
 }
+
+
 /*** Education End ***/
 
 
 /*** Experience start ***/
+
 .experience-content .experience-item {
     position: relative;
     overflow: hidden;
@@ -318,7 +325,6 @@
     border: 100px solid;
     border-color: var(--bs-light) transparent var(--bs-light) var(--bs-light);
     z-index: -1;
-
 }
 
 .experience-content .experience-item::before {
@@ -333,10 +339,13 @@
     border-color: var(--bs-light) var(--bs-light) var(--bs-light) transparent;
     z-index: -1;
 }
+
+
 /*** Experience End ***/
 
 
 /*** Skills Start ***/
+
 .skills-content .skills-item {
     position: relative;
 }
@@ -352,10 +361,13 @@
     background: var(--bs-light);
     z-index: -1;
 }
+
+
 /*** Skills End ***/
 
 
 /*** Service start ***/
+
 .service-content .service-item {
     box-shadow: 0 0 30px rgba(0, 0, 0, .03);
     transition: 0.5s;
@@ -363,16 +375,18 @@
 
 .service-content .service-item:hover i {
     color: var(--bs-primary);
-
 }
 
 .service-content .service-item:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, .08);
 }
+
+
 /*** service End ***/
 
 
 /*** Portfolio Start ***/
+
 .portfolio-content .portfolio-item .portfolio-img {
     position: relative;
     width: 100%;
@@ -400,28 +414,35 @@
 }
 
 .portfolio-content .portfolio-item .portfolio-img .portfolio-img-inner {
-    visibility: hidden;
+    /* visibility: hidden; */
     transition: 0.5s;
 }
 
 .portfolio-content .portfolio-item:hover .portfolio-img .portfolio-img-inner {
     visibility: visible;
-    transform: rotate(-6deg);
+    transform: rotate(-1deg);
 }
+
+
 /*** Portfolio End ***/
 
 
 /*** Blog Start ***/
+
 .blog-content .blog-btn a {
     color: var(--bs-primary);
 }
+
 .blog-content .blog-btn a:hover {
     color: var(--bs-dark);
 }
+
+
 /*** Blog End ***/
 
 
 /*** Testimonial Start ***/
+
 .testimonial-carousel {
     position: relative;
     transition: 0.5s;
@@ -496,17 +517,18 @@
     height: 70px;
     border: 3px solid var(--bs-primary);
 }
+
+
 /*** Testimonial End ***/
 
+
 /*** footer Start ***/
+
 @media (max-width: 991px) {
     .container-fluid .footer-content {
         padding-left: 0;
     }
 }
+
+
 /*** footer End ***/
-
-
-
-
-
